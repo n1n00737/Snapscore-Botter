@@ -194,3 +194,5 @@ This utility is developed and provided strictly for **educational, experimental,
 <div align="center">
   <sub>Engineered with precision by <b><a href="https://github.com/n1n00737">n1n00737</a></b></sub>
 </div>
+#   S n a p s c o r e - B o t t e r  
+ 
