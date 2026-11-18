@@ -1,18 +1,13 @@
-<div align="center">
-
 # ⚡ Snap Automation Engine Pro (SAE-Pro)
 
-**Next-generation, anti-detection macro automation suite for Snapchat Web**
+> High-throughput, humanized macro automation toolkit engineered for Snapchat Web.
 
-[![Python 3.8+](https://img.shields.io/badge/python-3.8+-3776AB.svg?style=flat&logo=python&logoColor=white)](https://www.python.org/downloads/)
-[![Platform](https://img.shields.io/badge/platform-Windows-0078D6.svg?style=flat&logo=windows&logoColor=white)](https://microsoft.com/windows)
-[![Author](https://img.shields.io/badge/developed%20by-n1n00737-8A2BE2.svg?style=flat)](https://github.com/n1n00737)
-[![Architecture](https://img.shields.io/badge/architecture-Macro%20Telemetry-cyan.svg?style=flat)]()
-[![License](https://img.shields.io/badge/license-MIT-success.svg?style=flat)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.8+-3776AB.svg?style=flat&logo=python&logoColor=white)](https://www.python.org/downloads/)
+[![Platform](https://img.shields.io/badge/Platform-Windows-0078D6.svg?style=flat&logo=windows&logoColor=white)](https://microsoft.com/windows)
+[![Author](https://img.shields.io/badge/Author-n1n00737-8A2BE2.svg?style=flat)](https://github.com/n1n00737)
+[![License](https://img.shields.io/badge/License-MIT-green.svg?style=flat)](LICENSE)
 
-<br/>
-
-```
+```text
   ███████╗███╗   ██╗ █████╗ ██████╗ ███████╗███╗   ██╗ █████╗ ██████╗ 
   ██╔════╝████╗  ██║██╔══██╗██╔══██╗██╔════╝████╗  ██║██╔══██╗██╔══██╗
   ███████╗██╔██╗ ██║███████║██████╔╝███████╗██╔██╗ ██║███████║██████╔╝
@@ -22,13 +17,11 @@
                      SNAP AUTOMATION ENGINE PRO
 ```
 
-</div>
-
 ---
 
 ## 📖 Overview
 
-**Snap Automation Engine Pro (`SAE-Pro`)** is an advanced, high-performance desktop automation toolkit developed by **n1n00737**. Engineered specifically for **Snapchat Web**, it provides an intelligent, human-like automated dispatch cycle designed to dramatically scale snap delivery while actively evading automated bot detection heuristics.
+**Snap Automation Engine Pro (`SAE-Pro`)** is an advanced desktop automation toolkit developed by **n1n00737**. Engineered for **Snapchat Web**, it provides an intelligent, human-like automated dispatch cycle designed to scale snap delivery while actively evading bot detection heuristics.
 
 ---
 
@@ -36,7 +29,7 @@
 
 | Capability | Description |
 | :--- | :--- |
-| 🧠 **Humanized Motion** | Implements smooth Bézier curve interpolation (`easeInOutQuad`) and randomized target pixel jitter (±3px). |
+| 🧠 **Humanized Motion** | Smooth Bézier curve interpolation (`easeInOutQuad`) and randomized target pixel jitter (±3px). |
 | 🛡️ **Anti-Flood Engine** | Configurable micro-breaks (e.g. 12s cool-down every 30 cycles) to simulate organic user pauses and bypass rate limits. |
 | 💾 **Coordinate Caching** | Calibrate once: recorded screen coordinates are serialized to `config.json` for one-click startup in future sessions. |
 | 🔍 **Crosshair Verification** | Preview registered coordinates across your display before engaging dispatch mode. |
@@ -107,10 +100,10 @@ python main.py
 
 ```mermaid
 flowchart LR
-    A["1. Setup Browser<br/>(Snapchat Web)"] --> B["2. Mobile Shortcut<br/>(Group selection)"]
-    B --> C["3. Calibration<br/>(Save coordinates)"]
-    C --> D["4. Preview<br/>(Verify alignment)"]
-    D --> E["5. Launch Engine<br/>(Live dispatch)"]
+    A["1. Setup Browser"] --> B["2. Mobile Shortcut"]
+    B --> C["3. Calibration"]
+    C --> D["4. Preview Alignment"]
+    D --> E["5. Launch Dispatch"]
 ```
 
 1. **Browser Preparation**:
@@ -172,6 +165,7 @@ Snapscore-Botter/
 ├── run.bat                   # Instant engine launcher
 ├── Install_Requirements.bat  # Automated dependency installer
 ├── version.txt               # Semantic version tracking
+├── LICENSE                   # Open-source license
 └── README.md                 # System documentation & technical guide
 ```
 
@@ -188,11 +182,3 @@ Snapscore-Botter/
 ## ⚖️ Legal Disclaimer
 
 This utility is developed and provided strictly for **educational, experimental, and research purposes**. The author (**n1n00737**) is not affiliated with, sponsored by, or associated with Snapchat Inc. in any manner. Users maintain sole responsibility for ensuring their usage complies with relevant terms, acceptable use policies, and guidelines.
-
----
-
-<div align="center">
-  <sub>Engineered with precision by <b><a href="https://github.com/n1n00737">n1n00737</a></b></sub>
-</div>
-#   S n a p s c o r e - B o t t e r  
- 
